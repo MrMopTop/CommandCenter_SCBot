@@ -163,7 +163,7 @@
     <IncludePath>C:\Libraries\SC2AI\sc2api_precompiled\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>C:\Users\Benjamin\Documents\VSWork\C++\BWAPI\bwapi\Release_Binary\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(ProjectDir)\..\..\..\BWAPI\bwapi\Release_Binary\lib;$(LibraryPath)</LibraryPath>
     <IncludePath>$(ProjectDir)\..\..\..\BWAPI\bwapi\Release_Binary\include;$(IncludePath)</IncludePath>
     <IntDir>$(SolutionName)\$(Platform)\$(Configuration)\</IntDir>
     <OutDir>$(ProjectDir)/../bin/</OutDir>

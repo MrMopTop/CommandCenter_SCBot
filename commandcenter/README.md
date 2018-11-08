@@ -1,3 +1,16 @@
+# Forward
+
+Below is the README for the sc_commandcenter bot by David Churchill. Please note that much of the work in this repository IS NOT MY OWN and is by Churchill. His information is below in the README.
+
+The files are up-to-date for Windows 10 and the latest SDK. I have the path settings configured so that the BWAPI repository is next to this repository in your directories. Below demonstrates my directory setup (BWAPI and sc_commandcenter folders are in the same directory):
+
+BWAPI> .git, .gitignore, bwapi> --all the Brood War API files
+sc_commandcenter> .git, .gitignore, commandcenter> --all the commandcenter files
+
+This should satisfy the path settings in this repository. If you don't have it configured this way, you'll need to dig into the build path and such in VS.
+
+--MrMopTop
+
 # CommandCenter: AI Bot for Broodwar and Starcraft II
 
 CommandCenter is a StarCraft AI bot that can play both StarCraft: Broodwar and StarCraft 2.

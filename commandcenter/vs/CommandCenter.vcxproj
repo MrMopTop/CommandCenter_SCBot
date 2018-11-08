@@ -164,7 +164,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LibraryPath>C:\Users\Benjamin\Documents\VSWork\C++\BWAPI\bwapi\Release_Binary\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\Benjamin\Documents\VSWork\C++\BWAPI\bwapi\Release_Binary\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)\..\..\..\BWAPI\bwapi\Release_Binary\include;$(IncludePath)</IncludePath>
     <IntDir>$(SolutionName)\$(Platform)\$(Configuration)\</IntDir>
     <OutDir>$(ProjectDir)/../bin/</OutDir>
   </PropertyGroup>

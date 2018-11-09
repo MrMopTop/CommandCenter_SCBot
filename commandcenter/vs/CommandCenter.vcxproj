@@ -74,6 +74,7 @@
     <ClInclude Include="..\src\DistanceMap.h" />
     <ClInclude Include="..\src\GameCommander.h" />
     <ClInclude Include="..\src\JSONTools.h" />
+    <ClInclude Include="..\src\json\json.hpp" />
     <ClInclude Include="..\src\MapTools.h" />
     <ClInclude Include="..\src\MeleeManager.h" />
     <ClInclude Include="..\src\MetaType.h" />
@@ -163,8 +164,8 @@
     <IncludePath>C:\Libraries\SC2AI\sc2api_precompiled\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>$(ProjectDir)\..\..\..\BWAPI\bwapi\Release_Binary\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>$(ProjectDir)\..\..\..\BWAPI\bwapi\Release_Binary\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\..\..\BWAPI_SCready_2018\bwapi\Release_Binary\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\..\..\..\BWAPI_SCready_2018\bwapi\Release_Binary\include;$(IncludePath)</IncludePath>
     <IntDir>$(SolutionName)\$(Platform)\$(Configuration)\</IntDir>
     <OutDir>$(ProjectDir)/../bin/</OutDir>
   </PropertyGroup>
@@ -173,8 +174,8 @@
     <IncludePath>C:\Libraries\SC2AI\sc2api_precompiled\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LibraryPath>C:\Users\Benjamin\Documents\VSWork\C++\BWAPI\bwapi\Release_Binary\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\Benjamin\Documents\VSWork\C++\BWAPI\bwapi\Release_Binary\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\..\BWAPI_SCready_2018\bwapi\Release_Binary\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\..\..\BWAPI_SCready_2018\bwapi\Release_Binary\include;$(IncludePath)</IncludePath>
     <OutDir>$(ProjectDir)/../bin/</OutDir>
     <IntDir>$(SolutionName)\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>

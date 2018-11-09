@@ -209,7 +209,7 @@ CCPosition Squad::calcCenter() const
 CCPosition Squad::calcRegroupPosition() const
 {
     CCPosition regroup(0, 0);
-
+    //float minDist = std::numeric_limits<float>::max();
     float minDist = std::numeric_limits<float>::max();
 
     for (auto unit : m_units)
